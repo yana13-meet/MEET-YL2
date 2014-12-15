@@ -6,4 +6,4 @@ from models import Poll, Choice
 # Remember each function/view the first argument/input has to be request
 
 def princesses(request):
-	return "Let it go! LET IT GOO!"
+	return render(request, 'project1.html')
